@@ -8,7 +8,7 @@ const app = express();
 
 // env setup
 //dotenv.config();
-require('dotenv').config();
+require("dotenv").config();
 // middleware
 app.use(cors());
 app.use(express.json());
@@ -29,4 +29,4 @@ app.listen(port, () => {
 });
 //
 //mongoose.connect('mongodb+srv://user:user123456@cluster0.ld9e4.mongodb.net/WWE?retryWrites=true&w=majority',()=>{
- // console.log("DB Connected")
+// console.log("DB Connected")

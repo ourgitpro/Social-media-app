@@ -7,12 +7,14 @@ const userSchema = mongoose.Schema(
       required: [true, "First name is required"],
       trim: true,
       text: true,
+      //required:true,
     },
     last_name: {
       type: String,
       required: [true, "Last name is required"],
       trim: true,
       text: true,
+      //required:true,
     },
     username: {
       type: String,
@@ -20,16 +22,19 @@ const userSchema = mongoose.Schema(
       trim: true,
       text: true,
       unique: true,
+      //required:true,
     },
     email: {
       type: String,
       required: [true, "Email is required"],
       trim: true,
       text: true,
+      //required:true,
     },
     password: {
       type: String,
       required: [true, "Password is required"],
+     //required:true,
     },
     picture: {
       type: String,
@@ -43,21 +48,25 @@ const userSchema = mongoose.Schema(
       type: String,
       required: [true, "Gender is required"],
       trim: true,
+      //required:true,
     },
     bYear: {
       type: Number,
       required: [true, "Year is required"],
       trim: true,
+     // required:true,
     },
     bMonth: {
       type: Number,
       required: [true, "Month is required"],
       trim: true,
+      //required:true,
     },
     bDay: {
       type: Number,
       required: [true, "Day is required"],
       trim: true,
+      //required:true,
     },
     varified: {
       type: Boolean,
